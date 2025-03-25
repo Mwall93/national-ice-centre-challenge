@@ -1,0 +1,39 @@
+export interface Event {
+  id: string;
+  fields: {
+    offsale_date: string;
+    region_code: string;
+    is_ticket_exchange_enabled: string;
+    genre: string[];
+    has_web_sales_dates: string;
+    keywords: string;
+    description: string;
+    show_id: string;
+    venue_timezone: string;
+    venue_name: string;
+    when: string;
+    category_ids: string[];
+    venue_postcode: string;
+    use_when_dates: string;
+    publishing_level: string;
+    thumbnail: string;
+    venue_state: string;
+    large_image: string;
+    feature_image: string;
+    product_types: string[];
+    venue_location: string;
+    venue_code: string;
+    onsale_date: string;
+    is_sold_out: string;
+    date: string;
+    venue_address: string;
+    purchase: string;
+    allow_refund: string;
+    product_id: string;
+    content_ids: string[];
+    title: string;
+    seller_info_datetime: string;
+    is_retired: string;
+    content_id: string;
+  };
+}
